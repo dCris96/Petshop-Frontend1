@@ -402,6 +402,20 @@ header{
 }
 
 @media screen and (max-width: 530px) {
+
+    .slide_title{
+        font-size: 24px;
+    }
+
+    .contact{
+        width: 90%;
+        margin: 0 auto 100px;
+    }
+
+    .contact_form{
+        width: auto;
+    }
+    
     .footer_contact{
         flex-direction: column-reverse;
         justify-content: center;
@@ -416,5 +430,9 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .direction_text h4{
+        line-height: 20px;
     }
  }
